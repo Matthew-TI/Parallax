@@ -1,0 +1,76 @@
+/* Estrutura do site */
+
+body, html {
+    margin: 0px;
+    font: 16px "lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+/* Formatações de texto */
+
+.conteudo {
+    color: #777;
+    background: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+.conteudo-titulo {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    background-color: #111;
+    color: #fff;
+    font-size: 25px;
+    padding: 18px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Formatações de imagens parallax */
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+    position: relative;
+    height: 100%;
+    /* Atributo para que venha ser aplicado uma opacidade na
+    imagem aplicada. */
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Atributo para que a imagem ela venha expandir na tela do
+    navegador, caso a imagem seja menor. */
+    background-size: cover;
+    background-position: center;
+}
+
+.caixa1 {
+    background-image: url(../imagens/imagem1.jpg);
+}
+
+.caixa2 {
+    background-image: url(../imagens/imagem2.jpg);
+}
+
+.caixa3 {
+    background-image: url(../imagens/imagem3.jpg);
+}
+
+.caixa4 {
+    background-image: url(../imagens/imagem4.jpg);
+}
+
